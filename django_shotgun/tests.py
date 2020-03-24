@@ -79,7 +79,7 @@ class Tests(TestCase):
 
     def test_site(self):
         """
-        Attempt to test every valid URL on the site by maintaing two lists,
+        Attempt to test every valid URL on the site by maintaining two lists,
         a list of URLs still to check (``todo``), and a list of those that
         have been checked (``done``). As each URL is checked it is taken from
         the ``todo`` list and put onto the ``done`` list. Checking a URL
